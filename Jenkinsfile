@@ -1,6 +1,6 @@
 pipeline{
     agent any
-    environments{
+    environment{
         USERNAME = tejasvijain09
         REPO_NAME = etpq2
     }
