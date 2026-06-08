@@ -18,7 +18,7 @@ pipeline{
         }
         stage('Login to Docker Hub'){
             steps{
-                sh 'docker login -u tejasvijain09'
+                sh 'docker login'
             }
         }
         stage('Push to Docker Hub'){
