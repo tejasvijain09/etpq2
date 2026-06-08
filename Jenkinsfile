@@ -1,8 +1,8 @@
 pipeline{
     agent any
     environment{
-        USERNAME = tejasvijain09
-        REPO_NAME = etpq2
+        USERNAME = 'tejasvijain09'
+        REPO_NAME = 'etpq2'
     }
     stages{
         stage('Checkout source code'){
